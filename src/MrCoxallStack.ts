@@ -11,16 +11,14 @@ class MrCoxallStack {
   stack: number[] = []
 
   // collects pushed numbers
-  Push(pushedNumber: number): void {
+  pushStack(pushedNumber: number): void {
     this.stack.push(pushedNumber)
   }
 
   // shows array
-  ShowStack(): void {
+  showStack(): void {
     console.log('The stack list')
-    for (var Element of this.stack) {
-      console.log(this.stack)
-    }
+    console.log(this.stack)
     console.log('End of stack list')
   }
 }

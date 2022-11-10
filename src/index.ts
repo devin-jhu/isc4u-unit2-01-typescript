@@ -15,8 +15,8 @@ const myStack = new MrCoxallStack()
 // Input & Process
 const userNumber = prompt('Enter number: ')
 const number = parseInt(userNumber)
-myStack.Push(number)
+myStack.pushStack(number)
 
-myStack.ShowStack()
+myStack.showStack()
 // Output
 console.log('\nDone.')
